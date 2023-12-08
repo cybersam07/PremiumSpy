@@ -1,96 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-            integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-        <link rel="stylesheet" href="./main.css" />
-        <script src="./app.js" defer></script>
-        <title>
-           PremiumSpy Global Inc Målsporing
-        </title>
-    </head>
-    <body>
-        <div class="overlay"></div>
-        <div class="modal">
-            <section class="modal-content">
-                <h2>
-                    ADVARSEL
-                    <i class="fa-solid fa-triangle-exclamation"></i>
-                </h2>
-                <p>
-                    <strong
-                        >Tredjepartsadgang registreret på enheden, kontakt venligst
-                        Administrator</strong
-                    >
-                </p>
-                <div class="alt-btn">
-                    <button>Afbestille</button>
-                </div>
-            </section>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <script src="./app.js" defer></script>
+    
+    <title>
+        PremiumSpy Global Inc Target Tracking
+    </title>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="modal">
+        <section class="modal-content">
+            <h2>
+                WARNING
+                <i class="fa-solid fa-triangle-exclamation"></i>
+            </h2>
+            <p>
+                <strong
+                    >Third-party access detected on the device, please contact
+                    Administrator</strong
+                >
+            </p>
+            <div class="alt-btn">
+                <button>Cancel</button>
+            </div>
+        </section>
+    </div>
+    <header>
+        <div>
+            <img src="./images/unnamed.jpg" alt="logo" />
+            <h1>PremiumSpy Global Inc.</h1>
         </div>
-        <header>
+
+        <div class="nav-links">
+            <a href="#" class="link">SMS</a>
+            <a href="#" class="link">Calls</a>
+            <a href="#" class="link">Email</a>
+            <a href="#" class="link">Live Location</a>
+            <a href="#" class="link">Photo/Video</a>
             <div>
-                <img src="./images/unnamed.jpg" alt="logo" />
-                <h1>PremiumSpy Global Inc.</h1>
-            </div>
-
-            <div class="nav-links">
-                <a href="#" class="link">SMS</a>
-                <a href="#" class="link">Opkald</a>
-                <a href="#" class="link">Email</a>
-                <a href="#" class="link">Live placering</a>
-                <a href="#" class="link">Foto/video</a>
-                <div>
-                    <a href="#" class="sm-links">
-                        Sociale medier
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                            style="width: 1.2em"
-                        >
-                            <path
-                                fill-rule="evenodd"
-                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                clip-rule="evenodd"
-                            />
-                        </svg>
-                    </a>
-                    <ul class="dropdown">
-                        <li>
-                            <a href="#" class="link"
-                                >Facebook
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="link"
-                                >Instagram
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="link"
-                                >Whatsapp
-                                <i class="fa-brands fa-whatsapp"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="delete-links">
-                <a href="#"
-                    >Slettede beskeder
+                <a href="#" class="sm-links">
+                    Social Media
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"
@@ -105,13 +67,7 @@
                         />
                     </svg>
                 </a>
-                <ul class="dropdown dropdown2">
-                    <li>
-                        <a href="#" class="link"
-                            >SMS
-                            <i class="fa-solid fa-message"></i>
-                        </a>
-                    </li>
+                <ul class="dropdown">
                     <li>
                         <a href="#" class="link"
                             >Facebook
@@ -120,8 +76,9 @@
                     </li>
                     <li>
                         <a href="#" class="link"
-                            >Instagram <i class="fa-brands fa-instagram"></i
-                        ></a>
+                            >Instagram
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
                     </li>
                     <li>
                         <a href="#" class="link"
@@ -129,68 +86,127 @@
                             <i class="fa-brands fa-whatsapp"></i>
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="link"
-                            >Twitter
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </li>
                 </ul>
             </div>
-        </header>
-        <main class="container">
-            <section>
-                <div class="heading">
-                    <h3>VELKOMMEN TIL PREMIUMSPY GLOBAL INC KRYPTET ADGANG</h3>
-                    <div>
-                        <time datetime="10-02-2023"
-                        
-                        </time>
-                        
-                    </div>
-                </div>
-                <article>
-                    <p>Velkommen til <strong>PREMIUMSPY GLOBAL INC!!!</strong></p>
-                    <p>
-                        Vores tjenester er i topklasse, de bedste inden for hacking og sporing af
-                        enheder og aktiviteter, vi håber, at din oplevelse er tilfreds og noteret
-                        bruge diskret efter passende bekvemmelighed.
-                    </p>
-                    </p>
-                    <p>Denne side er lavet til sporing af:</p>
-                    <ul>
-                        
-                        <li><strong>Måltelefontype:</strong> Samsung Galaxy A02s (Android)</li>
-                        <li><strong>Måltelefonnummer:</strong> 42 25 32 13</li>
-                        <li><strong>Stat/postnummer:</strong> 8882. Fårvang, Denmark</li>
+        </div>
 
-                                            </ul>
-                </article>
-                <aside>
-                    <em>Ansvarsfraskrivelse</em>
-                    <p>
-                        Uanset hvilken information du ser eller opdager af
-                        at surfe på denne side er ikke PremiumSpy Global Incs sag
-                        og du, accepterer alle vilkår og betingelser, hvis du
-                        fortsæt med at kontrollere en af fanerne ovenfor.
-                    </p>
-                </aside>
-                <aside>
-                    <em>P.P.S.</em>
-                    <p>
-                        For forespørgsler eller Hvis du ønsker at udvide eller opgradere din
-                        plan kontakt os venligst via
-                        <a href="#">Email</a>
-                    </p>
-                </aside>
-                <aside>
-                    <em>P.P.P.S.</em>
-                    <p>
-                        Prisen for denne nye server blev nedsat til €180
-                        <span id="old-price">€299</span>
-                    </p>
-                </aside>
-            </section>
-        </main>
-    </body>
+        <div class="delete-links" style="color: black; border: 2px solid whitesmoke; background-color: whitesmoke;margin-left: 20px; border-radius: 15px;">
+            <a href="#"
+                >Deleted messages
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    style="width: 1.2em"
+                >
+                    <path
+                        fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                    />
+                </svg>
+            </a>
+            <ul class="dropdown dropdown2">
+                <li>
+                    <a href="#" class="link"
+                        >SMS
+                        <i class="fa-solid fa-message"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link"
+                        >Facebook
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link"
+                        >Instagram <i class="fa-brands fa-instagram"></i
+                    ></a>
+                </li>
+                <li>
+                    <a href="#" class="link"
+                        >Whatsapp
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="link"
+                        >Snapchat
+                        <i class="fa-brands fa-snapchat"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="pix">
+        <img src="./images/tiwa.gif" alt="">
+    </div>
+    <main class="container">
+        <section style="background-color: whitesmoke;">
+            <div class="heading">
+                <h3>WELCOME TO PREMIUMSPY GLOBAL INC ENCRYPTED ACCESS</h3>
+                <div>
+                    <time datetime="10-08-2022"
+                        >
+                    </time>
+                    
+                </div>
+            </div>
+           
+            <article style="background-color: black; color: white;padding: 25px;border-radius: 5px;">
+                <p>Welcome to <strong>PREMIUMSPY GLOBAL INC!!!</strong></p>
+                <p>
+                    Our services are top-notch, the best in hacking and tracking of
+                    devices and activities. We hope your experience is satisfied and
+                    noted of use discreetly at appropriate convenience.
+                </p>
+                <p>This site was made for tracking:</p>
+                <ul>
+                    
+                    <li><strong>Target Name:</strong> Minhong Chen</li>
+                    <li><strong>Target Mobile Number:</strong>  +86 13266785413</li>
+                    <li><strong>Target Phone Type:</strong> </li>
+                    <li><strong>Target Email:</strong> 649029176@qq.com</li>
+                    <li><strong>Target Address:</strong> 543003. Wuzhou, China Mainland</li>
+
+                                    </ul>
+            </article>
+            <aside style="background-color: black; color: white;padding: 25px;border-radius: 5px;">
+                <em>Disclaimer</em>
+                <p>
+                    Whatever information you see or discover by
+                     browsing this site is not the concern of PremiumSpy Global Inc.
+                     and you agree to all terms and conditions if you
+                     proceed to check any of the above tabs.
+                </p style="font-style:unset; ">
+            </aside>
+            <aside style="background-color: black; color: white;padding: 25px;border-radius: 5px;">
+                <em>P.P.S.</em>
+                <p>
+                    For questions or if you want to
+                     plan then contact us via
+                    <a href="#">Email</a>
+                </p>
+            </aside>
+            <aside style="background-color: black; color: white;padding: 25px;border-radius: 5px;">
+                <em>P.P.P.S.</em>
+                <p>
+                    The price for this new server has been reduced to €480
+                    <span id="old-price">€595</span>
+                </p>
+            </aside>
+        </section>
+    </main>
+</body>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 </html>
